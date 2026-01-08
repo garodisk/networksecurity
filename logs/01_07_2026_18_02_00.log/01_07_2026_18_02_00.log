@@ -1,0 +1,23 @@
+[ 2026-01-07 18:02:13,070 ] 20 root - INFO - Initiate the data ingestion
+[ 2026-01-07 18:02:14,255 ] 74 root - INFO - Performed train test split on the dataframe
+[ 2026-01-07 18:02:14,255 ] 76 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-07 18:02:14,260 ] 84 root - INFO - Exporting train and test file path.
+[ 2026-01-07 18:02:14,288 ] 93 root - INFO - Exported train and test file path.
+[ 2026-01-07 18:02:14,288 ] 22 root - INFO - Data Initiation Completed
+[ 2026-01-07 18:02:14,291 ] 26 root - INFO - Initiate the data Validation
+[ 2026-01-07 18:02:14,303 ] 84 root - INFO - Required number of columns: 31
+[ 2026-01-07 18:02:14,303 ] 85 root - INFO - Data frame has columns: 31
+[ 2026-01-07 18:02:14,303 ] 84 root - INFO - Required number of columns: 31
+[ 2026-01-07 18:02:14,303 ] 85 root - INFO - Data frame has columns: 31
+[ 2026-01-07 18:02:14,371 ] 224 root - INFO - DataValidationArtifact: DataValidationArtifact(validation_status=True, valid_train_file_path='Artifacts\\01_07_2026_18_02_00\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\01_07_2026_18_02_00\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\01_07_2026_18_02_00\\data_validation\\drift_report\\report.yaml')
+[ 2026-01-07 18:02:14,371 ] 28 root - INFO - data Validation Completed
+[ 2026-01-07 18:02:14,371 ] 31 root - INFO - data Transformation started
+[ 2026-01-07 18:02:14,371 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-01-07 18:02:14,371 ] 65 root - INFO - Starting data transformation
+[ 2026-01-07 18:02:14,384 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2026-01-07 18:02:14,384 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-01-07 18:02:14,394 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-01-07 18:02:14,396 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-01-07 18:02:14,396 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-01-07 18:02:14,398 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-01-07 18:02:14,399 ] 35 root - INFO - data Transformation completed
